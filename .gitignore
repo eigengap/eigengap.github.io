@@ -1,5 +1,12 @@
+*.code-workspace
+.DS_Store
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Ignore the config file that's used for gh-pages.
+_config.gh-pages.yml
+
+Gemfile.lock
