@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Statistical Decision Theory
 date: 2020-08-02
 summary: A quick review of statistical decision theory from the HTF book.
