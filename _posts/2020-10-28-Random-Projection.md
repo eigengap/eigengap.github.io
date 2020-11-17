@@ -74,6 +74,12 @@ is a frequently used tool for concentration of measure bounds for iid random var
 - Inequalities involve $$e$$ and $$\log$$
 - [The union bound](https://en.wikipedia.org/wiki/Boole%27s_inequality)
 
+JL transformation has been shown to be useful for speeding up nearest neighbor search and clustering. However,
+the matrix $$A$$ is a dense matrix and it is still pretty expensive to compute $$Au$$. Next, I will review sparse random projection methods,
+in particular:
+- [Database-friendly Random Projection](http://people.ee.duke.edu/~lcarin/p93.pdf)
+- [Feature Hashing](https://alex.smola.org/papers/2009/Weinbergeretal09.pdf)
+
 References.
 - [1] This post is based on [Sham Kakade's lecture on JL](https://ttic.uchicago.edu/~gregory/courses/LargeScaleLearning/lectures/jl.pdf)
 - [2] [Inequalities cheat sheet](http://www.lkozma.net/inequalities_cheat_sheet/ineq.pdf)
