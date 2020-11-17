@@ -20,6 +20,8 @@ $$(1-\epsilon)\|u-v\|^2 \le \frac{1}{k}\|Au - Av\|^2 \le (1+\epsilon)\|u-v\|^2,$
 
 for all $$u, v \in D$$.
 
+This is usually referred to as Johnson-Lindenstrauss transformation due to [JL Lemma](https://en.wikipedia.org/wiki/Johnson%E2%80%93Lindenstrauss_lemma).
+
 *Lemma.* Let $$x = Au$$ and $$x_i$$ be the $$i$$-th element of $$x$$, then $$x_i \sim N(0, \|u\|^2)$$, i.e. $$\mathrm{E}[x_i] = 0$$ 
 and $$\mathrm{E}[x_i^2] = \|u\|^2$$.
 
